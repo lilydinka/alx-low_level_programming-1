@@ -13,8 +13,9 @@ int n = 48;
 while (n <= 57)
 {
 putchar(n);
+putchar('\n');
 n += 1;
 }
-putchar("\n");
+// printf("\n");
 return (0);
 }
